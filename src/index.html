@@ -1,22 +1,269 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index Page</title>
-    <link rel="stylesheet" href="/css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Oregano"
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=aguafina-script:400|roboto:400,900|vt323:400"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/Desktop.css" />
+    <title>Startseite</title>
   </head>
+
+  <!-- ALle SVG -->
   <body>
-    {{> header }}
-    <h1>Hello World Test!</h1>
-    <main>
-      <a href="/sub-page/">Link to Subpage</a>
-      <div>Home</div>
-    </main>
-    <script src="/js/index.js" type="module"></script>
+    <!-- <HERO> -->
+    <article class="hero-frame">
+      <header class="hero-header-con">
+        <nav class="hero-nav-con">
+          <ul class="hero-header-nav-list-con">
+            <li>
+              <a href="#"
+                > icon
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                >icon
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero-headline-con">
+        <h1 class="hero-headline-h1">Rustica</h1>
+        <p>Bio und Fair seit 1991</p>
+      </section>
+      <a class="hero-shop-button" href="#">zum Shop</a>
+    </article>
+
+    <!-- <PARAGRAPH> -->
+    <!-- soweit in Ordnung -->
+    <article class="para-gap-frame">
+      <section class="text-img-1-sort">
+        <div class="text-1-adj">
+          <h2 class="text-margin-bot">Rösterei & Café</h2>
+          <p class="text-margin-bot">
+            Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen
+            Rösterei, serviert im gemütlichen Café in der Innenstadt.
+          </p>
+
+          <section class="para-opening-time">
+            <div>
+              <p>Komm uns besuchen!</p>
+              <p>Fraunhoferstr. 13, Kiel</p>
+            </div>
+
+            <div>
+              <p>Mo – Fr 8–18 Uhr</p>
+              <p>Sa 11–18 Uhr</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="img-1-adj">
+          <img
+            src="img/FEND-Coffee-shop.jpg"
+            alt="Das Ambiente ist rustikal mit warmen Licht geflutet"
+            class="img-scale"
+          />
+        </div>
+      </section>
+      <section class="text-img-2-sort">
+        <div class="text-2-adj">
+          <h2 class="bio-gap">Bio und Fair</h2>
+          <p>
+            Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und
+            Konsonantien leben die Blindtexte. Weit hinten, hinter den
+            Wortbergen, fern der Länder Vokalien und Konsonantien leben die
+            Blindtexte. Und das alles in bester Bio Qualität
+          </p>
+        </div>
+        <div class="img-2-adj">
+          <img
+            src="img/FEND-coffee-plant.jpg"
+            alt="Kaffeebohnen an einer Kaffeepflanze"
+            class="img-scale"
+          />
+        </div>
+      </section>
+    </article>
+
+    <!-- <PRODUCTS> -->
+    <!-- ist fertig -->
+    <article class="pro-gap-frame-dye">
+      <h2 class="pro-h2">Entdecke unsere Kaffeesorten</h2>
+      <section class="products">
+        <div class="product-frame">
+          <div class="product-bg">
+            <img
+              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+              alt="Kaffee aus COsta Rica"
+            />
+          </div>
+          <p>
+            Costa Rica<span class="grey-color">6,90 - 26,90</span
+            >icon
+          </p>
+        </div>
+
+        <div class="product-frame">
+          <div class="product-bg">
+            <img
+              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+              alt="Kaffee aus COsta Rica"
+            />
+          </div>
+          <p>
+            Costa Rica<span class="grey-color">6,90 - 26,90</span
+            ><span>
+              icon
+              icon
+              icon
+            </span>
+          </p>
+        </div>
+        <div class="product-frame">
+          <div class="product-bg">
+            <img
+              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+              alt="Kaffee aus COsta Rica"
+            />
+          </div>
+          <p>
+            Costa Rica<span class="grey-color">6,90 - 26,90</span
+            ><span>
+              icon
+              icon
+              icon
+            </span>
+          </p>
+        </div>
+        <div class="product-frame">
+          <div class="product-bg">
+            <img
+              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+              alt="Kaffee aus COsta Rica"
+            />
+          </div>
+          <p>
+            Costa Rica<span class="grey-color">6,90 - 26,90</span
+            ><span>
+              icon
+              icon
+              icon
+            </span>
+          </p>
+        </div>
+      </section>
+      <section class="pro-button">
+        <a href="#">alle Produkte</a>
+      </section>
+    </article>
+
+    <!-- <IMG-WITH-TEXT> -->
+    <!-- fettig -->
+    <article class="img-with-text">
+      <section class="text-adj">
+        <h3 class="i-n-t-h3">Herkunft</h3>
+        <pre>
+Weit hinten, hinter den Wortbergen,
+     fern der Länder Vokalien und
+Konsonantien leben die Blindtexte.
+Und das alles in bester Bio Qualität
+        </pre>
+        <p>mehr</p>
+      </section>
+    </article>
+    <!--<PRODUCT REVIEW> -->
+    <!--//// mobile und Desktop abgleichen überarbeiten -->
+    <article class="pr-frame">
+      <h2 class="pr-h2">Das steckt drin</h2>
+      <section class="pr-desk-con">
+        <div class="pr-img-con">
+          <img
+            src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+            alt="Kaffee aus Costa Rica"
+            class="pr-img"
+          />
+        </div>
+        <section class="pr-icon-text-button-con">
+          <!-- <div class="pr-icon-text-con"> -->
+          <div class="pr-icon-text-items">
+            icon
+            <p>Bester Geschmack</p>
+          </div>
+          <div class="pr-icon-text-items">
+            icon
+
+            <p>Fair gehandelt</p>
+          </div>
+          <div class="pr-icon-text-items">
+            icon
+
+            <p>Bio Qualität</p>
+          </div>
+          <!-- </div> -->
+          <div class="pr-button-con"><a href="#">zum Shop</a></div>
+        </section>
+      </section>
+    </article>
+
+    <!-- <MAP> -->
+    <!-- wooh lez guu -->
+    <article>
+      <h2 class="map-h2-margin">Komm vorbei</h2>
+      <!-- interaktive Karte -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.8609939612898!2d10.11991791564463!3d54.34176500738498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c505797eb%3A0xf549da0f074162a9!2sFraunhoferstra%C3%9Fe%2013%2C%2024118%20Kiel!5e0!3m2!1sde!2sde!4v1675775768064!5m2!1sde!2sde"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </article>
+
+    <!-- <FOOTER> -->
+
+    <footer class="footer-frame">
+     icon
+
+      <section class="footer-h3-text-adress-opening-alinks-con-for-desk">
+        <section class="footer-h3-text-con">
+          <h3 class="footer-h3">Rustica</h3>
+          <p class="footer-h3-text">Café & Rösterei</p>
+        </section>
+
+        <section class="footer-adress-opening-con">
+          <p class="footer-adress-item">
+            Komm uns besuchen! Fraunhoferstr. 13, Kiel
+          </p>
+          <p class="footer-opening-item">Mo – Fr 8–18 Uhr Sa 11–18 Uhr</p>
+        </section>
+
+        <section class="footer-alinks-con">
+          <div class="footer-alink-a-flex-grow footer-alink-a-flex-item">
+            <p class="footer-alink-a-text">
+              <a href="#">Impressum</a> <a href="#">Datenschutz</a>
+            </p>
+          </div>
+
+          <div class="footer-alink-b-flex-grow footer-alink-b-flex-item">
+            <p class="footer-alink-b-text">
+              <a href="#">Café</a> <a href="#">Shop</a> <a href="#">Herkunft</a>
+            </p>
+          </div>
+        </section>
+      </section>
+      <div class="footer-gapmaker"></div>
+    </footer>
   </body>
 </html>
