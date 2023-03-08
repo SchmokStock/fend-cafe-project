@@ -1,3 +1,481 @@
 @import "variables.css";
 @import "base.css";
 @import "components/hero.css";
+
+/* ------------------------------ */
+/*         homepage */
+/* ------------------------------ */
+
+/* <HERO> */
+
+.hero-frame {
+  width: auto;
+  height: 75vh;
+  padding: 0 24px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../img/komprimiert/FEND-Coffee-latte-art-3.jpg");
+  background-position: center;
+  background-size: cover;
+
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nav */
+.hero-header-con {
+  width: 100%;
+  position: absolute;
+  top: 2.5%;
+}
+
+.hero-nav-con {
+  width: 100%;
+  padding: 0 24px;
+}
+
+.hero-header-nav-list-con {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+/* title */
+
+.hero-headline-con {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hero-headline-h1 {
+  margin: 0 0 2% 0;
+}
+
+/* button */
+.hero-shop-button {
+  width: 163px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+
+  color: white;
+  background: #1a1a1a;
+  border: solid #1a1a1a;
+  border-radius: 5px;
+}
+
+.hero-shop-button:hover {
+  background: #3a3734;
+  border: solid #3a3734;
+}
+
+.hero-shop-button:active {
+  background: #d7be9d;
+  border: solid #d7be9d;
+}
+
+/* <PARAGRAPH> */
+
+.para-gap-frame {
+  padding: 15% 24px;
+}
+
+.text-margin-bot {
+  margin-bottom: 6%;
+}
+
+.para-opening-time {
+  display: flex;
+  flex-flow: row;
+  gap: 25px;
+}
+
+.bio-gap {
+  margin-bottom: 6%;
+}
+
+.img-scale {
+  width: 75%;
+  height: auto;
+}
+
+.text-img-1-sort {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.text-1-adj {
+  width: 100%;
+}
+
+.img-1-adj {
+  width: 100%;
+  margin: 12% 0;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.text-img-2-sort {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.text-2-adj {
+  width: 100%;
+}
+
+.img-2-adj {
+  width: 100%;
+  margin-top: 12%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+/* <PRODUCTS> */
+
+/* img and flexing */
+
+.pro-gap-frame-dye {
+  background: black;
+  color: white;
+  padding: 15% 24px;
+  position: relative;
+}
+
+.product-frame {
+  width: 47%;
+}
+
+.product-bg {
+  background: white;
+  width: 100%;
+}
+
+.product-bg img {
+  width: 100%;
+}
+
+.pro-gap-frame-dye section p {
+  width: 80px;
+  height: auto;
+  margin: 12% 0 30% 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.grey-color {
+  color: #737373;
+}
+
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 12% 0 0 0;
+}
+
+/* Button */
+
+.pro-button {
+  width: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.pro-button a {
+  width: 182px;
+  height: 48px;
+  color: white;
+  border: solid #ffffff;
+  border-radius: 5px;
+  background: #1a1a1a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-button a:hover {
+  border: solid #ffffff;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+
+.pro-button a:active {
+  border: solid #ffffff;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+/* <IMAGE WITH TEXT> */
+/* //// Bag Bild zuschneiden, vielleicht auch nicht */
+.img-with-text {
+  width: auto;
+  height: 33vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/FEND-Coffee-bags-2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-adj {
+  width: 100%;
+  /* height: calc(100vw * 1.9); */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-adj pre {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+/* <PRODUCT REVIEW> */
+
+.pr-frame {
+  padding: 60px 24px;
+  background: #ffffff;
+}
+
+.pr-h2 {
+  text-align: center;
+}
+
+.pr-desk-con {
+  width: 100%;
+}
+
+.pr-img-con {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.pr-img {
+  width: 75%;
+}
+
+.pr-icon-text-button-con {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.pr-icon-text-items {
+  width: 33.33%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.pr-icon-text-items svg {
+  width: 45px;
+  height: auto;
+}
+
+.pr-icon-text-items p {
+  width: 6ch;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.pr-button-con {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.PR-bg-fr {
+  padding: 15% 24px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.pr-desk-sort {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.PR-bg-fr h2 {
+  margin: 6% 0;
+}
+
+.PR-bg-fr .pr-desk-sort img {
+  width: 75%;
+  height: auto;
+  margin: 8% 0;
+}
+
+.PR-bg-fr .pr-symbols-sort .pr-symbols-button {
+  width: 100%;
+  margin: 6% 0;
+  display: flex;
+  flex-flow: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.PR-bg-fr .pr-symbols-sort {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 50px;
+}
+
+.PR-bg-fr
+  .pr-desk-sort
+  .pr-symbols-button
+  .pr-symbols-sort
+  .pr-symbols-structure {
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pr-symbols-button .pr-symbols-sort div svg {
+  width: 35px;
+  height: auto;
+}
+
+.pr-symbols-button .pr-symbols-sort div p {
+  width: 6ch;
+}
+*/
+
+/* button */
+.pr-frame .pr-desk-con .pr-icon-text-button-con a {
+  width: 163px;
+  height: 48px;
+  margin-top: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-self: center; */
+
+  color: white;
+  background: #1a1a1a;
+  border: solid #1a1a1a;
+  border-radius: 5px;
+}
+.pr-frame .pr-desk-con .pr-icon-text-button-con a:hover {
+  background: #3a3734;
+  border: solid #3a3734;
+}
+
+.pr-frame .pr-desk-con .pr-icon-text-butto-con a:active {
+  background: #d7be9d;
+  border: solid #d7be9d;
+}
+
+/* <MAP> */
+.map-h2-margin {
+  padding: 0 24px 15% 24px;
+}
+
+iframe {
+  width: 100%;
+  height: 30vh;
+}
+
+/* <FOOTER> */
+
+.footer-frame {
+  background: #000000;
+  color: #ffffff;
+  padding: 12% 24px;
+}
+
+.footer-frame a {
+  color: #ffffff;
+}
+
+.footer-frame a:active {
+  color: #006d7e;
+}
+
+/* footer-h3-text-con */
+.footer-svg {
+  width: 40px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.footer-h3 {
+  font-size: 24px;
+}
+
+.footer-h3-text-con p {
+  font-size: 18px;
+}
+
+/* footer-adress-opening-con */
+.footer-adress-opening-con {
+  width: 300px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+/* footer-alink-con */
+.footer-alinks-con {
+  display: flex;
+  flex-flow: row;
+  gap: 104px;
+  margin-top: 24px;
+}
+
+/* Textumbrüche */
+.footer-adress-item {
+  width: 18ch;
+}
+.footer-opening-item {
+  width: 16ch;
+}
+.footer-alink-a-text {
+  width: 11ch;
+}
+.footer-alink-b-text {
+  width: 8ch;
+}
