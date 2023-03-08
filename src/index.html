@@ -14,21 +14,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/Desktop.css" />
+    <!-- <link rel="stylesheet" href="css/Desktop.css" /> -->
     <title>Startseite</title>
   </head>
 
   <!-- 
-    wstd:
-  - ALle SVG Icons coden
-  - Alle img Pfade überarbeiten
-  - Alle Klassen überarbeiten. BEM oder so? 
-  - Alles auf Sass angleichen
+    wtd:
+  [] Alle SVG icons coden. einbinden mit img
+  [X] Alle img Pfade überarbeiten
+    -> [X] Hero Background fixen
+  [] Alle Klassen überarbeiten. BEM oder so? 
+  [] Alles auf Sass angleichen
   -->
   <body>
     <!-- <HERO> -->
     <article class="hero-frame">
-      <header class="hero-header-con">
+      <!-- header verursacht überbreite durch die Liste irgendwie -->
+      <!-- <header class="hero-header-con">
         <nav class="hero-nav-con">
           <ul class="hero-header-nav-list-con">
             <li>
@@ -43,7 +45,7 @@
             </li>
           </ul>
         </nav>
-      </header>
+      </header> -->
       <section class="hero-headline-con">
         <h1 class="hero-headline-h1">Rustica</h1>
         <p>Bio und Fair seit 1991</p>
@@ -77,7 +79,7 @@
 
         <div class="img-1-adj">
           <img
-            src="img/FEND-Coffee-shop.jpg"
+            src=".img/cafe-guests-area.jpg"
             alt="Das Ambiente ist rustikal mit warmen Licht geflutet"
             class="img-scale"
           />
@@ -95,7 +97,7 @@
         </div>
         <div class="img-2-adj">
           <img
-            src="img/FEND-coffee-plant.jpg"
+            src=".img/coffee-plant-one.jpg"
             alt="Kaffeebohnen an einer Kaffeepflanze"
             class="img-scale"
           />
@@ -104,28 +106,29 @@
     </article>
 
     <!-- <PRODUCTS> -->
-    <!-- ist fertig -->
     <article class="pro-gap-frame-dye">
       <h2 class="pro-h2">Entdecke unsere Kaffeesorten</h2>
       <section class="products">
         <div class="product-frame">
           <div class="product-bg">
             <img
-              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
-              alt="Kaffee aus COsta Rica"
+              src=".img/icons-ect/coffee-costa-rica.png"
+              alt="Kaffee aus Costa Rica"
             />
           </div>
           <p>
-            Costa Rica<span class="grey-color">6,90 - 26,90</span
-            >icon
+            Costa Rica<span class="grey-color">6,90 - 26,90</span>
+            icon
+            icon
+            icon
           </p>
         </div>
 
         <div class="product-frame">
           <div class="product-bg">
             <img
-              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
-              alt="Kaffee aus COsta Rica"
+              src=".img/icons-ect/coffee-costa-rica.png"
+              alt="Kaffee aus Costa Rica"
             />
           </div>
           <p>
@@ -140,8 +143,8 @@
         <div class="product-frame">
           <div class="product-bg">
             <img
-              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
-              alt="Kaffee aus COsta Rica"
+              src=".img/icons-ect/coffee-costa-rica.png"
+              alt="Kaffee aus Costa Rica"
             />
           </div>
           <p>
@@ -156,8 +159,8 @@
         <div class="product-frame">
           <div class="product-bg">
             <img
-              src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
-              alt="Kaffee aus COsta Rica"
+              src=".img/icons-ect/coffee-costa-rica.png"
+              alt="Kaffee aus Costa Rica"
             />
           </div>
           <p>
@@ -176,7 +179,6 @@
     </article>
 
     <!-- <IMG-WITH-TEXT> -->
-    <!-- fettig -->
     <article class="img-with-text">
       <section class="text-adj">
         <h3 class="i-n-t-h3">Herkunft</h3>
@@ -196,7 +198,7 @@ Und das alles in bester Bio Qualität
       <section class="pr-desk-con">
         <div class="pr-img-con">
           <img
-            src="img\icons & co\FEND_Coffee_Costa-Rica 1.png"
+            src=".img/icons-ect/coffee-costa-rica.png"
             alt="Kaffee aus Costa Rica"
             class="pr-img"
           />
